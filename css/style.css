@@ -1,0 +1,243 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*  ############   header section start  #############     */
+
+
+header .email-section,.contact-section{
+	padding: 13px;
+}
+header .email-section i{
+	color: orangered;
+}
+header .email-section span{
+	margin-left: 15px;
+	color: #e1e1e1;
+}
+header .contact-section i{
+	color: orangered;
+}
+header .contact-section span{
+	margin-left: 15px;
+	color: #e1e1e1;
+}
+header .social-media{
+	color: white;
+	padding: 13px;
+}
+header .social-media i{
+	padding: 6px;
+	font-size: 15px;
+	margin-right: 20px;
+	color: orangered;
+	border-radius: 30px;
+	background-color: #fff;
+}
+
+
+/*   #######   media Query  #########  */
+
+@media (max-width:600px){
+	header{
+		display: none;
+	}
+}
+/*    header section End   */
+
+
+
+
+/*  ############# Navigation start #############  */
+
+.navbar{
+	background-color: rgba(0,0,0,0.5);
+	z-index: 9999;
+}
+.active{
+	color: red;
+}
+
+.navbar-nav{
+	margin-left: 55%;
+
+}
+.nav-item{
+	font-size: 17px;
+	font-weight: 600;
+	margin-left: 15px;
+	color: #fff!important;
+}
+.nav-link{
+	color: #fff!important;
+}
+.nav-link:hover{
+	padding: 2px;
+	color: orangered!important;
+	border-bottom: 2px solid #fff;
+}
+
+
+
+/*   #######   media Query  #########  */
+
+@media (max-width:600px){
+	.navbar-nav{
+		margin-left: 0%;
+	}
+}
+
+/*  #############  Navigation end  #############  */
+
+/*  #############  main bannner start #############  */
+.main-banner{
+	height: 515px;
+	width: 100%;
+}
+.content-area{
+	margin-top: 8%;
+	
+}
+.content-area .Welcome-msg{
+		padding-left: 10%;
+		color: #fff;
+}
+.content-area .Welcome-content{
+		padding-left: 15%;
+		color: #fff;
+}
+.content-area a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 600;
+}
+.KnowMore{
+	margin-left: 15%;
+	margin-top: 3%;
+	height: 40px;
+	width: 160px;
+	padding-top: 8px;
+	background-color: orangered;
+}
+.left-arrow i{
+	text-align: center;
+	width: 40px;
+	padding: 5px;
+	margin-left: 10px;
+	background-color: #fff;
+	border-radius: 3px;
+	color: #000;
+}
+.ContactUs{
+	margin-left: 2%;
+	margin-top: 3%;
+	height: 40px;
+	width: 160px;
+	padding-top: 8px;
+	background-color: #000;
+}
+.left-arrow i{
+	text-align: center;
+	width: 40px;
+	padding: 5px;
+	margin-left: 10px;
+	background-color: #fff;
+	border-radius: 3px;
+	color: #000;
+}
+
+
+/*   #######   media Query  #########  */
+
+@media (max-width:600px){
+	
+}
+
+
+/*sagar section*/
+
+.service-img{
+	height: 100px;
+	
+}
+
+.light-text{
+	font-family: 'Inconsolata', monospace;
+    font-family: 'Quicksand', sans-serif;
+}
+.teamimg
+{
+    width: 200px !important;
+    height: 200px  !important;
+}
+.teamname{
+    width: 100%;
+    background-color: red;
+
+}
+.socialmedia{
+    font-size: 32px;
+    
+}
+.socialmedia:hover{
+    transition: all 0.5s ease;
+    color: red;
+  
+   
+}
+.projectcover{
+    min-height: 200px;
+ 
+     background-image: url("../img/projectcover.jpg") !important;
+    /* opacity: 0.9; */
+    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.projectcover:after {
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(0, 153, 255, 0.5);
+  }
+  .text{
+    color: white;
+    font-weight: 900;
+    position: relative;
+    z-index: 1;
+  
+  }
+  .crausalimg{
+    width: 100px !important;
+    height: 100px  !important;
+  }
+.card1:hover{
+    border-bottom: red;
+    transition: all 0.5s ease;
+}
+.projectexp{
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgba(0, 153, 255, 0.5);
+}
+
+/* footer */
+.hl{
+    color: gray;
+}
+.hl:hover{
+    transition: all 1s ease;
+    color: red;
+}
